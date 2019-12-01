@@ -29,9 +29,7 @@ a{
 }
 
 .wrapper{
-   
-    background: url(../img/bg2.png) no-repeat ;
-    background: url(../img/background1.png) no-repeat;
+    background: url(../img/background1.png) no-repeat, rgba(22,22,22);
     background-size: cover,cover;
 }
 .block{
