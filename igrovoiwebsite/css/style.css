@@ -2,7 +2,7 @@ body {
     font-family: "Myriad Pro"sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6,p {
+h1,h2,h3,h4,h5,h6 {
     color: #ffffff;
 }
 
@@ -13,6 +13,7 @@ h1 {
 
 h2 {
     font-size: 80px;
+    font-weight: 700;
 }
 
 h3 {
@@ -58,7 +59,6 @@ a {
     padding-bottom: 418px;
     padding-top: 45px;
     padding-left: 70px;
-
 }
 
 .nav a {
@@ -72,8 +72,12 @@ a {
     text-decoration: underline;
 }
 
-.about {
-    padding-top: 30px;
+.mainSections{
+    background:#161616;
+}
+
+.bgSection{
+    background:#ffffff;
 }
 
 .about p {
@@ -86,14 +90,14 @@ a {
 
 .about h2 {
     color: #000000;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     box-sizing: border-box;
 }
 
 .cards {
     text-align: center;
-    padding-top: 72px;
-    padding-bottom: 111px;
+    padding-top: 30px;
+    padding-bottom: 70px;
 }
 
 .cards h5 {
