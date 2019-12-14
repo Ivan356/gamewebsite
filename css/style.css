@@ -252,12 +252,12 @@ margin-bottom: 60px;
     height: 64px;
 }
 
-.cart{
+.ServicesProvided .row{
     padding-bottom:75px;
     
 }
 
-.basket{
+.ServicesProvided .col-md-5{
     padding-right: 160px;
 }
 
