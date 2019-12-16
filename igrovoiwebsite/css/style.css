@@ -388,6 +388,34 @@ margin-bottom: 60px;
     max-height:206px;
 }
 
+.maps{
+    background:url(../img/Layer_52.png);
+    min-height: 600px;
+}
 
+.head{
+    background:#000;
+    padding-top: 120px;
+    padding-bottom: 45px;
+}
 
+#footer .nav-link{
+    color:#fff;
+    text-decoration: none;
+}
 
+#footer .nav-link:hover{
+    color:#ffc600;
+}
+
+.avesomeGames{
+    background:url(../img/Layer_47.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.avesomeGames h2{
+    padding-top: 345px;
+    font-weight: bold;
+}
