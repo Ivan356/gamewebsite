@@ -5,6 +5,7 @@ body {
 h1,h2,h3 {
     color: #ffffff;
 }
+
 h4,h5,h6,p{
     color:#222;
 }
@@ -48,13 +49,13 @@ a {
     width: 100%;
 }
 
-.header {
+#header {
     padding-top: 74px;
     display: block;
     padding-left: 65px;
 }
 
-.header p {
+#header p {
     font-size: 18px;
     font-weight: 400;
     padding-top: 12px;
@@ -73,10 +74,12 @@ a {
     min-height: 650px;
     max-height: 650px;
 }
+
 .link{
     padding-left: 0px;
     padding-top: 30px;
 }
+
 .nav a {
     color: #ffc600;
     font-size: 18px;
@@ -97,12 +100,12 @@ a {
     padding-top: 36px;
 }
 
-.about col{
-margin: 0;
-padding: 0;
+#about col{
+    margin: 0;
+    padding: 0;
 }
 
-.about p {
+#about p {
     color: #717171;
     font-size: 30px;
     font-weight: 400;
@@ -110,17 +113,17 @@ padding: 0;
     font-size: 12px;
 }
 
-.about h4 {
+#about h4 {
     margin-bottom: 0px;
 }
 
-.about h2 {
+#about h2 {
     color: #000000;
     padding-bottom: 20px;
     line-height: 50px;
 }
 
-.about h2:first-letter {
+#about h2:first-letter {
     color: #ffc600;
 }
 
@@ -153,18 +156,18 @@ padding: 0 auto;
     padding-bottom: 25px;
 }
 
-.feature h4{
+#feature h4{
     color:#222;
     padding-bottom: 10px;
 }
 
-.feature a {
+#feature a {
     color: #000000;
     padding-right: 25px;
     padding-bottom: 26px;
 }
 
-.feature a:hover{
+#feature a:hover{
     border-bottom: #ffc800;
     min-width: 25px;
 }
@@ -179,21 +182,25 @@ padding: 0 auto;
     height: 100%;
 }
 
-.process{
+#process{
     padding-top: 62px;
 }
-.process p{
+
+#process p{
     color: #595959;
     font-size: 14px;
 }
-.process h3{
+
+#process h3{
     color: #000000;
     padding-bottom: 15px;
 }
+
 .stratery{
 padding-top: 20px;
 margin-bottom: 60px;
 }
+
 .stratery h4{
     font-weight: 700;
     font-size: 35px;
@@ -230,9 +237,9 @@ margin-bottom: 60px;
     margin-left: 130px;
 }
 
-.ServicesProvided{
+#ServicesProvided{
     background:url(../img/Layer_26.png),linear-gradient(to right, #744f6d, #31405f);
-    max-height: 480px;
+    min-height: 480px;
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover,cover;
@@ -241,18 +248,19 @@ margin-bottom: 60px;
     width: 100%;
 }
 
-.ServicesProvided h4{
+#ServicesProvided h4{
     padding-top: 25px;
     color:#fff;
 
 }
-.ServicesProvided h5{
+
+#ServicesProvided h5{
     color:#fff;
     font-size: 18px;
     text-align: left;
 }
 
-.ServicesProvided p{
+#ServicesProvided p{
     color: #ffffff;
     font-size: 10px;
     font-weight: 400;
@@ -260,20 +268,126 @@ margin-bottom: 60px;
     height: 64px;
 }
 
-.ServicesProvided .row{
+#ServicesProvided .row{
     padding-right: 50px;
     padding-bottom: 75px;
     
 }
 
-.ourTeam{
+#ourTeam{
     padding-top: 66px;
+    width: 920px;
 }
 
-.ourTeam p{
+#ourTeam p{
     font-size: 16px;
     font-weight: 400;
 }
+
+.team{
+    padding-top: 35px;
+    padding-bottom: 120px;
+    padding-right: 50px;
+}
+
+.team .col{
+    margin: 19px;
+}
+
+.team .col img{
+    width: 181px;
+    height: 186px;
+}
+
+#Testimonials{
+    background:#000000;
+    min-height: 419px;
+    display: block;
+}
+
+#Testimonials h4{
+    padding-top: 55px;
+    color:#fff;
+    padding-bottom: 81px;
+}
+
+#Testimonials p{
+    color:#fff;
+    padding-left: 91px;
+    width: 700px;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.john img{
+    position: absolute;
+    bottom: 10px;
+    left: 760px;
+    display: block;
+}
+
+#blog{
+    text-align: left;
+}
+
+#blog h4{
+    padding-bottom: 30px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+#blog p{
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+#blog p span{
+    font-size: 18px;
+}
+
+.links{
+    padding-left: 60px;
+    padding-bottom: 100px;
+}
+
+.links a{
+    color:#222;
+}
+
+.links a:hover{
+    color:#ffc600;
+    text-decoration: none;
+}
+
+#blog .col{
+    padding: 0;
+    margin-right:  40px;
+    margin-top: 20px;
+}
+
+.July{
+    background:rgba(177,223,223);
+    background-repeat: no-repeat;
+}
+
+.June{
+    background: rgba(0,0,0);
+    background-repeat: no-repeat;
+}
+.pic{
+    padding-top: 20px;
+}
+.May{
+    background-repeat:no-repeat;
+}
+
+.size{
+    min-width: 180px;
+    max-width: 180px;
+    min-height: 206px;
+    max-height:206px;
+}
+
 
 
 
